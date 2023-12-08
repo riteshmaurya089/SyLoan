@@ -1,0 +1,88 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    box-sizing: border-box;
+}
+.ContactUsContainer{
+    width: 80%;
+    margin: auto;
+    
+}
+.ContactUsContainer label {
+    display: block;
+  }
+  
+  .ContactUsContainer input,.ContactUsContainer textarea {
+    width: 90%;
+    padding: .5em;
+    margin-bottom: .8em .1em;
+    box-sizing: border-box;
+  }
+  
+  .ContactUsContainer button {
+    
+    border-radius:1em;
+    background-color:#5476ff;
+    color: white;
+    padding: .6em 1.2em;
+    border: none;
+    cursor: pointer;
+    margin: 1em;
+  }
+  
+  .ContactUsContainer button:hover {
+    background-color:#0000f4;
+  }
+
+
+  .ContactUsContainer .formContainer{
+    display: flex;
+    margin: 1rem 0;
+  }
+  .ContactUsContainer .contactForm{
+    width: 50%;
+    margin: auto;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ContactUsContainer .title{
+      color: #3f3fd5;
+  }
+  .ContactUsContainer .info{
+    margin: 1.5em 0;
+  }
+  .ContactUsContainer .contactInfo{
+    margin: 1em 0;
+  }
+  .ContactUsContainer p{
+    margin: .1em;
+  }
+  .ContactUsContainer{
+    
+  }
+  @media(max-width:541px){
+    .ContactUsContainer .formContainer{
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 0;
+      align-items: center;
+      /* background: red; */
+    }
+    .ContactUsContainer .contactForm{
+      width: 90%;
+      margin: 1rem;
+      border: 1px solid black;
+      border-radius: .5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
